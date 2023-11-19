@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CV Generator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>CV Generator</h1>
+    
+    <form id="cvForm">
+      <!-- Personal Information -->
+      <fieldset>
+        <legend>Personal Information</legend>
+        <div>
+          <label for="fullName">Full Name:</label>
+          <input type="text" id="fullName" name="fullName" required>
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <!-- Other personal information fields -->
+      </fieldset>
+      
+      <!-- Skills -->
+      <fieldset>
+        <legend>Skills</legend>
+        <div>
+          <label for="skills">Skills:</label>
+          <textarea id="skills" name="skills" rows="4" required></textarea>
+        </div>
+        <!-- Other skill-related fields -->
+      </fieldset>
+      
+      <!-- Experience -->
+      <fieldset>
+        <legend>Experience</legend>
+        <div id="experienceList">
+          <!-- Dynamically added experience fields -->
+        </div>
+        <button type="button" id="addExperience">Add Experience</button>
+      </fieldset>
+      
+      <!-- Education -->
+      <fieldset>
+        <legend>Education</legend>
+        <div id="educationList">
+          <!-- Dynamically added education fields -->
+        </div>
+        <button type="button" id="addEducation">Add Education</button>
+      </fieldset>
+      
+      <!-- Submit Button -->
+      <button type="submit">Generate CV</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+print("A dedicated and detail-oriented analyst with 8 years of experience seeking a challenging role as a Civil Service Analyst. Proficient in data analysis, policy evaluation, and adept at providing insightful recommendations for effective decision-making within government departments.")
+
+(''Personal Statement:
+An accomplished analyst with a solid foundation in data analysis, policy evaluation, etc. Possessing a proven track record of leveraging analytical tools and methodologies to drive evidence-based policy recommendations. Committed to contributing expertise towards achieving the goals of the civil service.
+
+Education:
+
+Conducted thorough data analysis on resulting in actionable insights that contributed to policy improvements.
+Collaborated with stakeholders to assess policy effectiveness, identifying areas for enhancement and drafting reports for senior management.
+brief description of responsibilities and achievements that are relevant to the civil service analyst role, focusing on transferable skills like research, analysis, and reporting.
+Skills:
+
+Advanced proficiency in data analysis tools such as Excel, SQL, R, Python, etc.
+Strong analytical and critical thinking abilities
+Policy evaluation and recommendation skills
+Excellent communication and presentation skills
+Stakeholder engagement and collaboration
+Ability to work in fast-paced and dynamic environments")
+
+
+
